@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(/image/login.webp);
+}
+a {
+  text-decoration: none;
+  color: #dc3232;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  color: #dc3232;
+}
+
+.glass-effect h2 {
+  margin-bottom: 20px;
+}
+
+.glass-effect label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.glass-effect input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+}
+
+.glass-effect button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ce1e1e;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.glass-effect button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#message{
+  height: 100px;
+}
