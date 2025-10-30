@@ -96,4 +96,3 @@ Small, focused README to help run and contribute. If you want, I can also:
 - add a basic `index.html` launcher in the repo root
 - add a tiny automated test that opens `Quiz/quiz.html`
 
-Tell me which of the above you'd like next.
