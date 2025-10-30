@@ -95,4 +95,5 @@ Small, focused README to help run and contribute. If you want, I can also:
 - add a `LICENSE` file (MIT)
 - add a basic `index.html` launcher in the repo root
 - add a tiny automated test that opens `Quiz/quiz.html`
+---
 
