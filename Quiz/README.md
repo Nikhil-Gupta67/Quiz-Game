@@ -13,7 +13,9 @@ This project implements multiple subject quizzes (computer, math, physics) with 
 - Client-side quiz logic in JavaScript
 - Optional PHP backend helper (`connect.php`) included
 
+
 ## Tech used in Project
+
 
 Quiz/
   ├─ quiz.html         # Main quiz entry (open this in a browser)
@@ -33,6 +35,7 @@ Quiz/
 image/
   └─ computer1.avif
 ```
+
 
 Files are intentionally simple — CSS and JS files are colocated with their HTML counterparts.
 
