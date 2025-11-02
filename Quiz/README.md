@@ -16,7 +16,7 @@ This project implements multiple subject quizzes (computer, math, physics) with 
 
 ## Tech used in Project
 
-```
+```.
 Quiz/
   ├─ quiz.html         # Main quiz entry (open this in a browser)
   ├─ quiz.css          # Styles used by quiz pages (if present)
@@ -34,7 +34,7 @@ Quiz/
   ├─ connect.php      # Optional PHP backend (for submissions)
 image/
   └─ computer1.avif
-```
+```.
 
 
 Files are intentionally simple — CSS and JS files are colocated with their HTML counterparts.
