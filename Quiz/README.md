@@ -1,4 +1,4 @@
-# Quiz-Game--
+# Quiz-Game
 
 Simple web-based Quiz project. This repository contains a small client-side quiz with HTML, CSS and JavaScript, plus a simple `connect.php` present in the `Quiz/` folder if you want to use a PHP-backed submission flow.
 
