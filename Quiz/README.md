@@ -13,7 +13,6 @@ This project implements multiple subject quizzes (computer, math, physics) with 
 - Client-side quiz logic in JavaScript
 - Optional PHP backend helper (`connect.php`) included
 
-
 ## Tech used in Project
 
 ```.
