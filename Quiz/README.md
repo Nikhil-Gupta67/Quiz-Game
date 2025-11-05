@@ -33,8 +33,7 @@ Quiz/
   ├─ connect.php      # Optional PHP backend (for submissions)
 image/
   └─ computer1.avif
-```.
-
+```
 
 Files are intentionally simple — CSS and JS files are colocated with their HTML counterparts.
 
