@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project implements multiple subject quizzes (computer, math, physics) with static pages for each quiz and a central `quiz.html` entry point. It was developed as a college project and is intentionally lightweight — no build system or package manager required.
+--This project implements multiple subject quizzes (computer, math, physics) with static pages for each quiz and a central `quiz.html` entry point. It was developed as a college project and is intentionally lightweight — no build system or package manager required--.
 
 ## Features
 
