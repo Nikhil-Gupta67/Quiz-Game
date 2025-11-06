@@ -15,7 +15,7 @@
 
 ## Tech used in Project
 
-```.
+```
 Quiz/
   ├─ quiz.html         # Main quiz entry (open this in a browser)
   ├─ quiz.css          # Styles used by quiz pages (if present)
@@ -58,7 +58,6 @@ php -S localhost:8000 -t "Quiz"
 
 # Then open http://localhost:8000/quiz.html in your browser
 ```
-
 If you don't have PHP installed, you can download it from https://windows.php.net or run a simple static server (e.g., with Python) for client-side testing:
 
 ```powershell
