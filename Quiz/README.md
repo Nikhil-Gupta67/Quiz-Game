@@ -87,7 +87,7 @@ This repository does not include a license file. If you want to make this projec
 
 ## Contact
 
-Project owner: `Nikhil-Gupta67` (repo owner). Add issues or pull requests on the repo for questions or contributions.
+--Project owner: `Nikhil-Gupta67` (repo owner). Add issues or pull requests on the repo for questions or contributions--.
 
 ---
 Small, focused README to help run and contribute. If you want, I can also:
