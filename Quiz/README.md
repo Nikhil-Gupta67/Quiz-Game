@@ -81,7 +81,7 @@ Manual testing steps:
 
 Automated tests are not included; adding a small Cypress or Playwright test suite would be a useful extension.
 
-## License To-
+## License To
 
 This repository does not include a license file. If you want to make this project open source, consider adding an `MIT` or `Apache-2.0` license. Add a `LICENSE` file at repo root when ready.
 
