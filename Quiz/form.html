@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glass Effect Login Form</title>
-    <link rel="stylesheet" href="form.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="glass-effect">
-        <h2></h2>
-        <form action="connect.php" method="post">
-          First Name<input type="text" name="fname" /> 
-          Last Name<input type="text"name="lname"/>
-          E-mail<input type="email" name="email" />
-           Phone<input type="number"name="phone"/>
-          Message<input id="message" type="text" name="message" />
-<button type="submit">Submit</button>
-          </form>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <div id="navbar">
+    <a class="logo" href="physic1.html">Physics</a>
+    <a class="logo" href="computer1.html">Computer</a>
+    <a class="logo" href="math1.html">Math</a>
+    <a class="logo" href="about.html">About Us</a>
+    <a class="logo" href="form.html">Feedback</a>
+  </div>
+
+  <div class="container">
+    <div class="glass-effect">
+      <h2>Share Your Feedback</h2>
+      <form action="connect.php" method="post" id="feedbackForm">
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" required />
+        </div>
+
+        <div class="form-group">
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
     </div>
-  </body>
+  </div>
+</body>
 </html>
