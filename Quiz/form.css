@@ -1,69 +1,146 @@
-/* styles.css */
+/* Form Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+/* Navbar Styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-image: url(/image/login.webp);
+  gap: 30px;
+  padding: 15px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
-a {
+
+#navbar .logo {
   text-decoration: none;
-  color: #dc3232;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#navbar .logo:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  min-height: calc(100vh - 80px);
+  padding: 20px;
 }
 
 .glass-effect {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  border: 3px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 300px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
   text-align: center;
-  color: #dc3232;
 }
 
 .glass-effect h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 1.8em;
 }
 
-.glass-effect label {
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
 }
 
-.glass-effect input {
+.form-group input,
+.form-group textarea {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-
-  border-radius: 5px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1em;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-.glass-effect button {
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-btn {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   border: none;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #ce1e1e;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 1.1em;
+  font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
 }
 
-.glass-effect button:hover {
-  background-color: rgba(255, 255, 255, 0.4);
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
 }
 
-#message{
-  height: 100px;
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #navbar .logo {
+    font-size: 0.9em;
+    padding: 8px 10px;
+  }
+
+  .glass-effect {
+    padding: 25px;
+  }
+
+  .glass-effect h2 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+  }
 }
